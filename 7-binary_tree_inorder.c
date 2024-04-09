@@ -9,12 +9,12 @@
  */
 void binary_tree_inorder(const binary_tree_t *tree, void (*func)(int))
 {
-    if (tree == NULL || func == NULL)
-        return;
+	if (tree == NULL || func == NULL)
+		return;
 
-    binary_tree_inorder(tree->left, func);  /* Traverse le sous-arbre gauche */
+	binary_tree_inorder(tree->left, func);  /* Traverse le sous-arbre gauche */
 
-    func(tree->n);  /* Appelle la fonction func avec la valeur du nœud actuel */
+	func(tree->n);  /* Appelle la fonction func avec la valeur du nœud actuel */
 
-    binary_tree_inorder(tree->right, func);  /* Traverse le sous-arbre droit */
+	binary_tree_inorder(tree->right, func);  /* Traverse le sous-arbre droit */
 }
