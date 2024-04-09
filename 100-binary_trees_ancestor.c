@@ -8,7 +8,7 @@
  * Return: Pointer to the lowest common ancestor node, or NULL if not found
  */
 binary_tree_t *binary_trees_ancestor(const binary_tree_t *first,
-										const binary_tree_t *second)
+const binary_tree_t *second)
 {
 	const binary_tree_t *ancestor;
 
@@ -34,7 +34,7 @@ binary_tree_t *binary_trees_ancestor(const binary_tree_t *first,
  * Return: 1 if @node is a descendant of @ancestor, 0 otherwise
  */
 int binary_tree_is_descendant_of(const binary_tree_t *node,
-									const binary_tree_t *ancestor)
+const binary_tree_t *ancestor)
 {
 	while (node != NULL)
 	{
