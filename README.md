@@ -3,14 +3,14 @@
 
 ## Table of Contents
 ***
-1. [General Info]
-2. [List of Exercises]
-3. [File Structure]
-4. [Compilation]
+1. General Infos
+2. List of Exercises
+3. File Structure
+4. Compilation
 
-## General Info
+## General Infos
 ***
-This repository contains exercises done as part of a training by Holberton School on binary trees in the C language. The project is a collaborative effort between Tanguy MOREAU AND Charlène SCOMPARIN.
+This repository contains exercises done as part of a training by Holberton School on binary trees in the C language. The project is a collaborative effort between Tanguy MOREAU and Charlène SCOMPARIN.
 
 ## List of Exercises
 ***
@@ -52,14 +52,14 @@ Each exercise is accompanied by several files:
 - A source file `.c` containing the implementation of the function.
 - A header file `.h` containing the prototype of the function.
 
+
 ## Compilation
 ***
 To compile an exercise, you can use gcc with the following options:
 
-```bash
 gcc -Wall -Wextra -Werror -pedantic binary_tree_print.c main.c <exercise_file>.c -o <executable_name>
 
-## Technologies
+### Technologies
 ***
 * development environment : Visual Studio Code with Windows
 * framework : C language
