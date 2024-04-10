@@ -60,7 +60,7 @@ To compile an exercise, you can use gcc with the following options:
 gcc -Wall -Wextra -Werror -pedantic binary_tree_print.c main.c <exercise_file>.c -o <executable_name>
 
 ### Technologies
-* development environment : Visual Studio Code with Windows
+* development environment : Visual Studio Code with Windows 11, compiled with Ubuntu on WSL
 * framework : C language
 *libraries: <stdlib.h> ; <stdio.h> ; <stddef.h> ; "binary_trees.h"
 
